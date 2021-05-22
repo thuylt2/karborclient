@@ -1,0 +1,314 @@
+CHANGES
+=======
+
+2.1.0
+-----
+
+* Switch to newer openstackdocstheme and reno versions
+* Add Python3 victoria unit tests
+* Cleanup py27 support
+* Update hacking for Python3
+
+2.0.0
+-----
+
+* [ussuri][goal] Drop python 2.7 support and testing
+
+1.4.0
+-----
+
+* Add unit test for quotas
+* Add unit test for triggers
+* Add unit test for operation logs
+* optional argument should have default values
+* Replace git.openstack.org URLs with opendev.org URLs
+
+1.3.0
+-----
+
+* Switch to the new canonical constraints URL on master
+* Add Python 3 Train unit tests
+* Fix listing with --all error
+* OpenDev Migration Patch
+* Update json module to jsonutils
+* add python 3.7 unit test job
+* Add doc/requirements.txt to docs tox environment
+
+1.2.0
+-----
+
+* Convert trigger window from string to integer
+* Change openstack-dev to openstack-discuss
+* Add osc support to update plan description
+* Add support to reset checkpoint state
+* Add support to update plan description
+* Add osc support to reset checkpoint state
+* Add Python 3.6 classifier to setup.cfg
+* Unsubmitted name field shoud be ignored
+* Convert trigger window from string to integer
+* Add osc all tenants support for checkpoint listing
+* Add all tenants support for checkpoint listing
+* Limit the operation type for scheduledoperation
+* Remove PyPI downloads
+* Use templates for cover and lower-constraints
+* add python 3.6 unit test job
+* switch documentation job to new PTI
+* import zuul job settings from project-config
+
+1.1.0
+-----
+
+* fix tox python3 overrides
+* Trivial: Update pypi url to new url
+* add lower-constraints job
+* Follow the new PTI for document build
+* Updated from global requirements
+* Update links in README
+* Updated from global requirements
+
+1.0.0
+-----
+
+* Updated from global requirements
+* Delete tox.ini functional when functional test is real
+* Change home-page url for karborclient
+* Updated from global requirements
+* Fixed non-ascii in README.txt
+
+0.7.0
+-----
+
+* Add OSC commands for quota classes API
+* Updated from global requirements
+* Add OSC commands for quota API
+* Avoid tox\_install.sh for constraints support
+* Updated from global requirements
+* Add commands for quota class API
+* Add commands for quota API
+* Add OSC plugin for the service management API
+* Add commands for service management API
+* Add OSC plugin for the verification API
+* Add commands for verification API
+* Add 'rm -f .testrepository/times.dbm' command in testenv
+* Updated from global requirements
+* Delete bash\_completion in subcommand
+* Updated from global requirements
+* Fix OSC scheduledoperations commands formatting
+* Fix OSC restore commands formatting
+* Fix OSC provider show formatting
+* Fix OSC protectable show formatting
+* Convert DOS newlines to Unix newlines
+* Fix OSC protectable instance formatting
+* Use a copy of global literal for each test
+* Fix OSC plan show, update, and create formatting
+* Fix OSC checkpoint show and create formatting
+* Checkpoint list: show only plan name and id
+* Updated from global requirements
+
+0.6.0
+-----
+
+* Docs: arrange guides
+* Updated from global requirements
+
+0.5.0
+-----
+
+* Updated from global requirements
+* Update URLs in documentation
+* Fix wrong entry points which breaks OSC gate
+* Add operation log API cmd to karborclient
+* Fix warning in doc generating
+* Update URLs in documents according to document migration
+
+0.4.0
+-----
+
+* Remove unused None from dict.get()
+* Replace six.iteritems() with .items()
+* Add OpenStackClient plugin for scheduledoperations
+* Add OpenStackClient plugin for checkpoint
+* Add OpenStackClient plugin for triggers
+* Fix bug in plan deletion when using osc plugin for karbor
+* Drop MANIFEST.in - it's not needed by pbr
+* Add OpenStackClient plugin for protectable
+* Add OpenStackClient plugin for provider
+* Add unit tests for showing a plan/restore
+* Update spec to match what we've registered in openstackclient
+* Updated from global requirements
+* Remove old pep8 ignores that are no longer necessary
+* switch to openstackdocstheme
+* Add OpenStackClient plugin for restore
+* Updated from global requirements
+* Fix help message for plan command
+* Use 'project' instead of 'tenant' when switching to openstackclient command
+* Fix a bug for plan delete test
+* Enable translation of python-karborclient
+* Add plan commands for OpenStackClinet plugin in karbor
+* Updated from global requirements
+* Add OpenStackClient plugin and plan list
+* Spec for openstack client support
+
+0.3.0
+-----
+
+* Enable coverage report in console output
+
+1.0.0b1
+-------
+
+
+0.2.0
+-----
+
+* Updated from global requirements
+* Add a verification about the provider\_id of plan
+* Switch from keystoneclient to keystoneauth
+* Delete py34 in setup.cfg and tox.ini
+* Replace http with https
+* Updated from global requirements
+* Add extra\_info field to Plans API
+* Add extra\_info field to protectables API
+* Optimize the link address
+* Replace six.iteritems() with .items()
+* Remove log translations
+* Updated from global requirements
+* Fix oslo\_debug\_helper not running
+* [Fix gate]Update test requirement
+* Fix the errors about parameter when creating a plan
+* protectable list help info error
+* Unified help information style
+* Command \`karbor help\` info error
+* Help info error
+* 'karbor provider-list' help info error
+* Updated from global requirements
+
+0.1.3
+-----
+
+* readme: fix readme title
+* Uniform parameter split character
+* Remove support for py33
+
+0.1.2
+-----
+
+* Make some command echo item print pretty
+* Make command 'karbor plan-xxx' print pretty
+* Make command 'karbor provider-show' print pretty
+* Check the resource when creating a plan
+* The restore\_target and restore\_auth are optional when creating restore
+* Use the appropriate marker function for each message
+* Enable DeprecationWarning in test environments
+* Fix the end\_date filter in the checkpoint list API
+* Fix the failure of get() method on a checkpoint object
+* Add Constraints support
+* Updated from global requirements
+* Support plan and date filter in the checkpoint list API
+* The inconsistency of delete method between restore API and client
+* Skip docutils version 13.1
+* Remove resource's data method
+* Replace dos newlines with unix newlines
+* Add remote tag to remote images
+* Add \`specs\` target to README.rst
+* Updated from global requirements
+* Add a filter parameter 'description' for plan list API
+* Show Created\_at field while checkpoint-list/checkpoint-show
+* Show team and repo badges on README
+
+0.1.1
+-----
+
+* Add a filter argument operation\_definition for scheduledoperations API
+* Updated from global requirements
+* Make method import\_versioned\_module work
+* Add Python 3.5 classifier and venv
+
+0.1.0
+-----
+
+* Updated from global requirements
+* Remove copy of incubated Oslo code
+* Fix restore-create failed with "no attribute 'username'"
+* Add parameters field for protectable instances API
+* Update homepage with developer documentation page
+
+0.0.10
+------
+
+* Add a description field for resource plan
+* Updated from global requirements
+* Add trigger update client
+* Add restore user and password to restore-create
+* Shell: restore & plan CLI parameters
+
+0.0.9
+-----
+
+* Rename package python-karborclient
+* Updated from global requirements
+* Add metadata parameter to checkpoint API
+
+0.0.8
+-----
+
+* Fix package to be 'karborclient'
+* fix .coveragerc
+
+0.0.7
+-----
+
+* Change package name back to smaugclient
+
+0.0.6
+-----
+
+* Change Smaug to Karbor
+* Updated from global requirements
+* Remove discover from test-requirements
+* Fix the parameter field not being successfully passed with plan create command
+* Fix checkpoint delete error because of provider api update
+* fix scheduledoperation show and delete
+* fix scheduledoperation list, object has no attribute 'type'
+* Fixed argment in trigger-create and scheduledoperation-create
+* Remove unused LOG
+* Add \_\_ne\_\_ built-in function
+* Updated from global requirements
+
+0.0.5
+-----
+
+* Return actual object, not raw, when creating
+* Updated from global requirements
+* The parameters of plan could be an empty dict without being configured
+* Updated from global requirements
+
+0.0.4
+-----
+
+* Fix creating scheduled\_operations error
+* Add a field parameters to resource plans
+* Remove the project\_id in the url of smaugclient resource
+
+0.0.3
+-----
+
+* Manual update from global-requirements
+* Switch to post-versioning
+* Add show protectables instance endpoint
+* Fix missing a resource class Instances
+
+0.0.2
+-----
+
+* Implement the ScheduledOperation cli of smaugclient
+* Implement the triggers cli of smaugclient
+* Implement the checkpoints cli of smaugclient
+* Implement the providers cli of smaugclient
+* Implement the protectable cli of smaugclient
+* Implement the restore cli of smaugclient
+* Implement the plans cli of smaug
+* Skeleton for the smaug cli client
+* Sync common code from oslo-incubator
+* Initial Cookiecutter for python-smaugclient
+* Added .gitreview
